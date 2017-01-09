@@ -1,7 +1,20 @@
+/*font-family: 'Slabo 27px', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+h1{
+  font-family: 'Roboto', serif;
+}
+
 .nav-pad{
   padding: 0 15%;
 }
 
 .em-radius{
   border-radius: 50%;
+}
+
+.main-p{
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
 }
