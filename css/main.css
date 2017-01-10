@@ -18,3 +18,13 @@ h1{
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
+
+.contact{
+  width: auto;
+  height: 800px;
+  background-color: black;
+}
+
+.fa{
+  font-size: 20px;
+}

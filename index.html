@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Emily Walker</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
@@ -38,8 +39,10 @@
             <div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right nav-pad">
                 <li class="active"><a href="#">ABOUT<span class="sr-only">(current)</span></a></li>
-                <li><a href="#">PORTFOLIO</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="#thumbs">PORTFOLIO</a></li>
+                <li><a href="#form">CONTACT</a></li>
+                <li><a href="https://www.linkedin.com/in/missesemwalker"><i class="fa fa-linkedin-square"></i></a></li>
+                <li><a href="https://twitter.com/missesemwalker"><i class="fa fa-twitter-square"></i></a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
             <div class="row">
@@ -62,28 +65,101 @@
                   Bresaola beef ribs landjaeger boudin biltong t-bone kevin prosciutto sirloin cow doner.
                   Capicola short loin shoulder, ham hock andouille jowl burgdoggen swine.
                 </p>
+                <p class="main-p">
+                  Bacon ipsum dolor amet drumstick short ribs ham bacon flank capicola,
+                  pork loin bresaola landjaeger venison doner cupim porchetta.
+                  Pork ball tip flank turkey bresaola tri-tip turducken.
+                  Bresaola beef ribs landjaeger boudin biltong t-bone kevin prosciutto sirloin cow doner.
+                  Capicola short loin shoulder, ham hock andouille jowl burgdoggen swine.
+                </p>
+                <p class="main-p">
+                  Bacon ipsum dolor amet drumstick short ribs ham bacon flank capicola,
+                  pork loin bresaola landjaeger venison doner cupim porchetta.
+                  Pork ball tip flank turkey bresaola tri-tip turducken.
+                  Bresaola beef ribs landjaeger boudin biltong t-bone kevin prosciutto sirloin cow doner.
+                  Capicola short loin shoulder, ham hock andouille jowl burgdoggen swine.
+                </p>
+                <p class="main-p">
+                  Bacon ipsum dolor amet drumstick short ribs ham bacon flank capicola,
+                  pork loin bresaola landjaeger venison doner cupim porchetta.
+                  Pork ball tip flank turkey bresaola tri-tip turducken.
+                  Bresaola beef ribs landjaeger boudin biltong t-bone kevin prosciutto sirloin cow doner.
+                  Capicola short loin shoulder, ham hock andouille jowl burgdoggen swine.
+                </p>
               </div>
             </div>
-            <div class="row">
-                  <div class="col-xs-1 col-md-3 center-thumbs">
+            <div class="row" id="thumbs">
+                  <div class="col-md-4 center-thumbs">
                     <a href="#" class="thumbnail">
                       <img src="http://courses.ece.ubc.ca/elec311/images/img5.png" alt="...">
                     </a>
                   </div>
-                  <div class="col-xs-1 col-md-3 center-thumbs">
+                  <div class="col-sm-4 center-thumbs">
                     <a href="#" class="thumbnail">
                       <img src="http://courses.ece.ubc.ca/elec311/images/img5.png" alt="...">
                     </a>
                   </div>
-                  <div class="col-xs-1 col-md-3 center-thumbs">
+                  <div class="col-sm-4 center-thumbs">
                     <a href="#" class="thumbnail">
                       <img src="http://courses.ece.ubc.ca/elec311/images/img5.png" alt="...">
                     </a>
                   </div>
                   ...
                 </div>
+                <div class="row" id="thumbs">
+                      <div class="col-md-4 center-thumbs">
+                        <a href="#" class="thumbnail">
+                          <img src="http://courses.ece.ubc.ca/elec311/images/img5.png" alt="...">
+                        </a>
+                      </div>
+                      <div class="col-sm-4 center-thumbs">
+                        <a href="#" class="thumbnail">
+                          <img src="http://courses.ece.ubc.ca/elec311/images/img5.png" alt="...">
+                        </a>
+                      </div>
+                      <div class="col-sm-4 center-thumbs">
+                        <a href="#" class="thumbnail">
+                          <img src="http://courses.ece.ubc.ca/elec311/images/img5.png" alt="...">
+                        </a>
+                      </div>
+                      ...
+                    </div>
+                    <div class="row" id="thumbs">
+                          <div class="col-md-4 center-thumbs">
+                            <a href="#" class="thumbnail">
+                              <img src="http://courses.ece.ubc.ca/elec311/images/img5.png" alt="...">
+                            </a>
+                          </div>
+                          <div class="col-sm-4 center-thumbs">
+                            <a href="#" class="thumbnail">
+                              <img src="http://courses.ece.ubc.ca/elec311/images/img5.png" alt="...">
+                            </a>
+                          </div>
+                          <div class="col-sm-4 center-thumbs">
+                            <a href="#" class="thumbnail">
+                              <img src="http://courses.ece.ubc.ca/elec311/images/img5.png" alt="...">
+                            </a>
+                          </div>
+                          ...
+                        </div>
             </div><!-- /.container-fluid -->
           </nav>
+          <div class="row contact" id="form">
+            <div class="col-sm-6 col-sm-offset-3">
+              <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+          </div>
+          </div>
         </div>
       </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
